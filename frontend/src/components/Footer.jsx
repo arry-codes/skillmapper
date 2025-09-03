@@ -23,14 +23,11 @@ const Footer = () => {
 
         {/* Optional: Social Media Icons */}
         <div className="flex gap-5 text-xl">
-          <a href="#" className="hover:text-white transition-colors duration-300">
+          <a href="https://github.com/arry-codes" className="hover:text-white transition-colors duration-300">
             <FaGithub />
           </a>
-          <a href="#" className="hover:text-white transition-colors duration-300">
+          <a href="https://www.linkedin.com/in/kashyap-aryan/" className="hover:text-white transition-colors duration-300">
             <FaLinkedin />
-          </a>
-          <a href="#" className="hover:text-white transition-colors duration-300">
-            <FaTwitter />
           </a>
         </div>
       </div>
