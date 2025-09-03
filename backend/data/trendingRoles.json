@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "AI/ML Engineer",
+    "description": "Build and deploy machine learning models, work with neural networks, and develop AI-powered applications.",
+    "popularity": 95,
+    "growth": "+45%",
+    "icon": "Code",
+    "color": "from-purple-500 to-pink-500"
+  },
+  {
+    "id": "2",
+    "name": "Full Stack Developer",
+    "description": "Master both frontend and backend development to build complete web applications from scratch.",
+    "popularity": 88,
+    "growth": "+32%",
+    "icon": "Briefcase",
+    "color": "from-blue-500 to-cyan-500"
+  },
+  {
+    "id": "3",
+    "name": "UX/UI Designer",
+    "description": "Create intuitive user experiences and beautiful interfaces that users love to interact with.",
+    "popularity": 82,
+    "growth": "+28%",
+    "icon": "Palette",
+    "color": "from-green-500 to-teal-500"
+  }
+]

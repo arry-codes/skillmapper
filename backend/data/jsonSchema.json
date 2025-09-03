@@ -1,0 +1,137 @@
+{
+    "title": "Roadmap",
+    "description": "Personalised roadmap for a user",
+    "type": "object",
+    "properties": {
+        "role": {
+            "description": "User's Target Role",
+            "type": "string"
+        },
+        "salary": {
+            "description": "Salary offered to that role in market (in k)",
+            "type": "string"
+        },
+        "currentSkills": {
+            "description": "User's current skills",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "description": {
+            "description": "Role Description",
+            "type": "string"
+        },
+        "growth": {
+            "description": "Growth expected in the role",
+            "type": "string"
+        },
+        "personalisedSteps": {
+            "type": "array",
+            "description": "An array consisting of personalised steps to cover all the remaining skills required for the role",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "description": "Title of particular step in the roadmap",
+                        "type": "string"
+                    },
+                    "estimatedTime": {
+                        "description": "Estimated Time to cover that step",
+                        "type": "string"
+                    },
+                    "difficulty": {
+                        "description": "Difficulty of the particular topic",
+                        "type": "string"
+                    },
+                    "requiredSkills": {
+                        "description": "Skills required to cover this step",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "topicNames": {
+                        "description": "List of all the topics covered in the step",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "resources": {
+                        "description": "List of all the resources for the particular step",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "description": "Name of the resource",
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "description": "Type of resource (video/documentation)",
+                                    "type": "string"
+                                },
+                                "link": {
+                                    "description": "Link of the source of the resource",
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "capstoneProject": {
+            "description": "A full fledged capstone project that cover all the topics used to train for the role",
+            "type": "object",
+            "properties": {
+                "title": {
+                    "description": "Title of the project",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "Description of the project",
+                    "type": "string"
+                },
+                "skillsUsed": {
+                    "description": "List of skills used in the project",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "topicNames": {
+                    "description": "Topics used in the project",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "estimatedTime": {
+                    "description": "Estimated Time to make the project",
+                    "type": "string"
+                },
+                "resources": {
+                    "description": "Resources that one can refer to make this project",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "description": "Name of the resource",
+                                "type": "string"
+                            },
+                            "link": {
+                                "description": "Link of the resource",
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

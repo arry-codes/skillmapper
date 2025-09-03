@@ -1,0 +1,44 @@
+[
+  {
+    "id": "4",
+    "name": "Data Scientist",
+    "description": "Analyze complex data to extract insights and build predictive models for business decisions.",
+    "icon": "BarChart3",
+    "skills": ["Python", "SQL", "Statistics", "Machine Learning"]
+  },
+  {
+    "id": "5",
+    "name": "DevOps Engineer",
+    "description": "Bridge development and operations to automate deployment and manage cloud infrastructure.",
+    "icon": "Code",
+    "skills": ["Docker", "Kubernetes", "AWS", "CI/CD"]
+  },
+  {
+    "id": "6",
+    "name": "Product Manager",
+    "description": "Lead product strategy and work with cross-functional teams to deliver successful products.",
+    "icon": "Users",
+    "skills": ["Strategy", "Analytics", "Communication", "Leadership"]
+  },
+  {
+    "id": "7",
+    "name": "Cybersecurity Specialist",
+    "description": "Protect organizations from cyber threats and ensure data security and compliance.",
+    "icon": "BriefCase",
+    "skills": ["Network Security", "Penetration Testing", "Risk Assessment", "Compliance"]
+  },
+  {
+    "id": "8",
+    "name": "Mobile Developer",
+    "description": "Build native and cross-platform mobile applications for iOS and Android devices.",
+    "icon": "Code",
+    "skills": ["React Native", "Swift", "Kotlin", "Flutter"]
+  },
+  {
+    "id": "9",
+    "name": "Blockchain Developer",
+    "description": "Develop decentralized applications and smart contracts on various blockchain platforms.",
+    "icon": "Code",
+    "skills": ["Solidity", "Web3", "Smart Contracts", "DeFi"]
+  }
+]

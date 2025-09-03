@@ -1,0 +1,1200 @@
+[{
+  "name": "Machine Learning Engineer",
+  "roadmapId": 1,
+  "description": "Learn to build, evaluate, and deploy machine learning models through math foundations, practical tools, and real-world projects.",
+  "salary": "$90k - $150k",
+  "demand": "High",
+  "growth": "+31%",
+  "timeToLearn": "6-8 months",
+  "overview": "Machine Learning Engineers design algorithms and models that enable computers to learn from data and make predictions or decisions. This roadmap follows a structured path covering Python, math, ML algorithms, and deployment.",
+  "roadmap": [
+    {
+      "id": 1,
+      "phase": "Foundation",
+      "title": "Testing the Waters",
+      "duration": "4-6 weeks",
+      "difficulty": "Beginner",
+      "description": "Start with Python, libraries like NumPy and Pandas, and basic statistics for EDA.",
+      "topics": [
+        { "id": 1, "name": "Python programming basics and OOP" },
+        { "id": 2, "name": "NumPy and Pandas" },
+        { "id": 3, "name": "Data visualization with Matplotlib and Seaborn" },
+        { "id": 4, "name": "Descriptive statistics" },
+        { "id": 5, "name": "Exploratory Data Analysis (EDA)" },
+        { "id": 6, "name": "Intro to Machine Learning" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Python Basics - CampusX",
+          "provider": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvb1RYR-iTA_hzckhdONtSW4",
+          "icon": "Play"
+        },
+        {
+          "type": "practice",
+          "title": "NumPy 100 Problems",
+          "provider": "GitHub",
+          "url": "https://github.com/rougier/numpy-100",
+          "icon": "Globe"
+        },
+        {
+          "type": "course",
+          "title": "Data Analysis - CampusX",
+          "provider": "YouTube",
+          "url": "https://www.youtube.com/watch?v=ZhacwtUR0SU",
+          "icon": "Play"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Titanic EDA",
+          "description": "Perform detailed EDA on Titanic dataset",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["Pandas", "Seaborn", "EDA"]
+        },
+        {
+          "id": 2,
+          "title": "Data Wrangling Notebook",
+          "description": "Clean and process messy datasets",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["Data Cleaning", "Pandas", "Python"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "phase": "Mathematical Foundation",
+      "title": "Gaining Conceptual Depth",
+      "duration": "5-6 weeks",
+      "difficulty": "Intermediate",
+      "description": "Dive deep into linear algebra, statistics, and calculus for ML.",
+      "topics": [
+        { "id": 1, "name": "Linear algebra concepts (vectors, matrices)" },
+        { "id": 2, "name": "Calculus basics for gradient descent" },
+        { "id": 3, "name": "Probability and statistics" },
+        { "id": 4, "name": "Hypothesis testing" },
+        { "id": 5, "name": "Evaluation metrics and error analysis" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Linear Algebra - CampusX",
+          "provider": "YouTube",
+          "url": "https://www.youtube.com/watch?v=e9h-ZZ_ahRg",
+          "icon": "Play"
+        },
+        {
+          "type": "course",
+          "title": "Calculus for ML",
+          "provider": "3Blue1Brown",
+          "url": "https://www.youtube.com/playlist?list=PLrAXtmErZgOdmeg3b1f4_NI0B0M8z0b8G",
+          "icon": "Play"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Metrics Explorer",
+          "description": "Implement precision, recall, F1-score from scratch",
+          "difficulty": "Intermediate",
+          "duration": "1 week",
+          "skills": ["Python", "Math", "ML Metrics"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "phase": "Core ML",
+      "title": "Learning Practical ML",
+      "duration": "6-8 weeks",
+      "difficulty": "Intermediate",
+      "description": "Hands-on ML models, scikit-learn, and core algorithms.",
+      "topics": [
+        { "id": 1, "name": "Regression, classification models" },
+        { "id": 2, "name": "Decision trees and ensemble methods" },
+        { "id": 3, "name": "Model validation and tuning" },
+        { "id": 4, "name": "Clustering and dimensionality reduction" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "ML Algorithms - CampusX",
+          "provider": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvbQKMW1_U5K5PNbC1qLb1lD",
+          "icon": "Play"
+        },
+        {
+          "type": "documentation",
+          "title": "Scikit-learn Documentation",
+          "provider": "scikit-learn.org",
+          "url": "https://scikit-learn.org/stable/",
+          "icon": "FileText"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "House Price Prediction",
+          "description": "Train regression models on real estate data",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["Scikit-learn", "Regression", "EDA"]
+        },
+        {
+          "id": 2,
+          "title": "Customer Segmentation with K-Means",
+          "description": "Apply unsupervised learning to market segmentation",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["K-Means", "Visualization", "Unsupervised Learning"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "phase": "Advanced Concepts",
+      "title": "Neural Networks & Projects",
+      "duration": "6-10 weeks",
+      "difficulty": "Advanced",
+      "description": "Neural networks, deployment, domain-specific knowledge, and complete projects.",
+      "topics": [
+        { "id": 1, "name": "Basics of Neural Networks (Perceptron, MLP)" },
+        { "id": 2, "name": "Intro to Deep Learning with PyTorch" },
+        { "id": 3, "name": "Model Deployment with Flask/Streamlit" },
+        { "id": 4, "name": "Time Series / NLP / Computer Vision Introduction" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Deep Learning - CampusX",
+          "provider": "YouTube",
+          "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvZxtLbmpN1ZRaVmLx5u0DDr",
+          "icon": "Play"
+        },
+        {
+          "type": "tutorial",
+          "title": "Streamlit for ML Apps",
+          "provider": "Streamlit.io",
+          "url": "https://streamlit.io",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Digit Recognizer with PyTorch",
+          "description": "Build a simple CNN on the MNIST dataset",
+          "difficulty": "Advanced",
+          "duration": "3 weeks",
+          "skills": ["PyTorch", "CNN", "Computer Vision"]
+        },
+        {
+          "id": 2,
+          "title": "End-to-End ML App",
+          "description": "Train, evaluate and deploy a complete ML model",
+          "difficulty": "Advanced",
+          "duration": "3-4 weeks",
+          "skills": ["Deployment", "Flask/Streamlit", "CI/CD"]
+        }
+      ]
+    }
+  ],
+  "skills": ["Python", "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "PyTorch", "EDA", "ML Algorithms"],
+  "companies": ["Google", "Amazon", "Meta", "Hugging Face", "Tesla", "Apple"]
+}
+,{
+  "name": "Full Stack Developer",
+  "roadmapId": 2,
+  "description": "Master both frontend and backend development to build complete web applications from database to user interface.",
+  "salary": "$80k - $150k",
+  "demand": "High",
+  "growth": "+32%",
+  "timeToLearn": "6-10 months",
+  "overview": "Full Stack Developers are versatile professionals who can work on both client-side and server-side development. They have the skills to build complete web applications from scratch, handling everything from user interfaces to databases and server logic.",
+  "roadmap": [
+    {
+      "id": 1,
+      "phase": "Foundation",
+      "title": "Web Development Fundamentals",
+      "duration": "4-6 weeks",
+      "difficulty": "Beginner",
+      "description": "Learn the building blocks of web development",
+      "topics": [
+        { "id": 1, "name": "CSS3 styling, flexbox, and grid" },
+        { "id": 2, "name": "JavaScript ES6+ fundamentals" },
+        { "id": 3, "name": "DOM manipulation and events" },
+        { "id": 4, "name": "Responsive web design principles" },
+        { "id": 5, "name": "HTML5 semantic elements and structure" },
+        { "id": 6, "name": "Version control with Git" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "HTML & CSS Crash Course",
+          "provider": "freeCodeCamp",
+          "url": "#",
+          "icon": "Youtube"
+        },
+        {
+          "type": "documentation",
+          "title": "MDN Web Docs",
+          "provider": "Mozilla",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "practice",
+          "title": "CSS Grid Garden",
+          "provider": "Interactive",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "book",
+          "title": "Eloquent JavaScript",
+          "provider": "Online Book",
+          "url": "#",
+          "icon": "BookOpen"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Personal Portfolio Website",
+          "description": "Create a responsive portfolio showcasing your skills and projects",
+          "difficulty": "Beginner",
+          "duration": "1-2 weeks",
+          "skills": ["HTML", "CSS", "JavaScript", "Responsive Design"]
+        },
+        {
+          "id": 2,
+          "title": "Landing Page Clone",
+          "description": "Recreate a popular website's landing page to practice layout skills",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["HTML", "CSS", "Flexbox/Grid"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "phase": "Frontend Mastery",
+      "title": "Modern Frontend Development",
+      "duration": "6-8 weeks",
+      "difficulty": "Intermediate",
+      "description": "Master modern frontend frameworks and tools",
+      "topics": [
+        { "id": 1, "name": "React.js fundamentals and hooks" },
+        { "id": 2, "name": "Component-based architecture" },
+        { "id": 3, "name": "State management (Context API, Redux)" },
+        { "id": 4, "name": "React Router for navigation" },
+        { "id": 5, "name": "CSS frameworks (Tailwind CSS)" },
+        { "id": 6, "name": "Build tools (Vite, Webpack)" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "React - The Complete Guide",
+          "provider": "Udemy",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "documentation",
+          "title": "React Official Docs",
+          "provider": "Meta",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "tutorial",
+          "title": "React Tutorial",
+          "provider": "React.dev",
+          "url": "#",
+          "icon": "Code"
+        },
+        {
+          "type": "practice",
+          "title": "React Challenges",
+          "provider": "Frontend Mentor",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Task Management App",
+          "description": "Build a todo app with CRUD operations and local storage",
+          "difficulty": "Intermediate",
+          "duration": "2-3 weeks",
+          "skills": ["React", "State Management", "Local Storage", "CSS"]
+        },
+        {
+          "id": 2,
+          "title": "Weather Dashboard",
+          "description": "Create a weather app using external APIs with search functionality",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["React", "API Integration", "Responsive Design"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "phase": "Backend Development",
+      "title": "Server-Side Programming",
+      "duration": "6-8 weeks",
+      "difficulty": "Intermediate",
+      "description": "Learn backend development and server management",
+      "topics": [
+        { "id": 1, "name": "Node.js and Express.js framework" },
+        { "id": 2, "name": "RESTful API design and development" },
+        { "id": 3, "name": "Database design and modeling" },
+        { "id": 4, "name": "MongoDB and Mongoose ODM" },
+        { "id": 5, "name": "Authentication and authorization" },
+        { "id": 6, "name": "Middleware and error handling" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Node.js Complete Course",
+          "provider": "Udemy",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "documentation",
+          "title": "Express.js Guide",
+          "provider": "Express",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "tutorial",
+          "title": "MongoDB University",
+          "provider": "MongoDB",
+          "url": "#",
+          "icon": "Code"
+        },
+        {
+          "type": "practice",
+          "title": "API Design Best Practices",
+          "provider": "REST API Tutorial",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Blog API Backend",
+          "description": "Create a RESTful API for a blog with user authentication",
+          "difficulty": "Intermediate",
+          "duration": "3-4 weeks",
+          "skills": ["Node.js", "Express", "MongoDB", "JWT Authentication"]
+        },
+        {
+          "id": 2,
+          "title": "E-commerce API",
+          "description": "Build a complete e-commerce backend with payment integration",
+          "difficulty": "Advanced",
+          "duration": "4-5 weeks",
+          "skills": ["Node.js", "Database Design", "Payment APIs", "Security"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "phase": "Database & DevOps",
+      "title": "Data Management & Deployment",
+      "duration": "4-6 weeks",
+      "difficulty": "Advanced",
+      "description": "Master database management and deployment strategies",
+      "topics": [
+        { "id": 1, "name": "SQL databases (PostgreSQL)" },
+        { "id": 2, "name": "Database optimization and indexing" },
+        { "id": 3, "name": "Cloud platforms (AWS, Vercel, Netlify)" },
+        { "id": 4, "name": "Containerization with Docker" },
+        { "id": 5, "name": "CI/CD pipelines" },
+        { "id": 6, "name": "Monitoring and logging" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "PostgreSQL Complete Course",
+          "provider": "Udemy",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "documentation",
+          "title": "AWS Documentation",
+          "provider": "Amazon",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "tutorial",
+          "title": "Docker for Beginners",
+          "provider": "Docker",
+          "url": "#",
+          "icon": "Code"
+        },
+        {
+          "type": "practice",
+          "title": "DevOps Roadmap",
+          "provider": "roadmap.sh",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Social Media Platform",
+          "description": "Build a full-stack social media app with real-time features",
+          "difficulty": "Advanced",
+          "duration": "6-8 weeks",
+          "skills": ["Full Stack", "Real-time Communication", "Database Design", "Deployment"]
+        },
+        {
+          "id": 2,
+          "title": "Project Management Tool",
+          "description": "Create a comprehensive project management application",
+          "difficulty": "Advanced",
+          "duration": "8-10 weeks",
+          "skills": ["Full Stack", "Complex State Management", "File Uploads", "Team Collaboration"]
+        }
+      ]
+    }
+  ],
+  "skills": ["JavaScript", "React", "Node.js", "Express", "MongoDB", "PostgreSQL", "Git", "AWS"],
+  "companies": ["Netflix", "Airbnb", "Spotify", "Stripe", "Shopify", "GitHub"]
+},{
+  "name": "UI/UX Designer",
+  "roadmapId": 3,
+  "description": "Design intuitive and visually appealing digital interfaces that enhance user experience across web and mobile platforms.",
+  "salary": "$70k - $120k",
+  "demand": "High",
+  "growth": "+27%",
+  "timeToLearn": "5-8 months",
+  "overview": "UI/UX Designers focus on creating user-friendly interfaces and smooth digital experiences. They combine creativity, design tools, user psychology, and feedback loops to build products that users love.",
+  "roadmap": [
+    {
+      "id": 1,
+      "phase": "Foundation",
+      "title": "Design Principles & Tools",
+      "duration": "4-6 weeks",
+      "difficulty": "Beginner",
+      "description": "Learn the basics of design thinking and start using industry-standard tools",
+      "topics": [
+        { "id": 1, "name": "Color theory, typography, and spacing" },
+        { "id": 2, "name": "Design systems and UI components" },
+        { "id": 3, "name": "Wireframing basics" },
+        { "id": 4, "name": "Design tools: Figma, Adobe XD" },
+        { "id": 5, "name": "Visual hierarchy and alignment" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Intro to UX/UI Design",
+          "provider": "Coursera",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "tool",
+          "title": "Figma Basics",
+          "provider": "Figma Learn",
+          "url": "#",
+          "icon": "Globe"
+        },
+        {
+          "type": "documentation",
+          "title": "Material Design Guidelines",
+          "provider": "Google",
+          "url": "#",
+          "icon": "FileText"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Login & Signup Screens",
+          "description": "Design a mobile login and signup flow using Figma",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["Figma", "Layout", "Typography"]
+        },
+        {
+          "id": 2,
+          "title": "Landing Page Wireframe",
+          "description": "Sketch and prototype a landing page layout for a startup",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["Wireframing", "Grid Systems", "Spacing"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "phase": "User Experience Design",
+      "title": "UX Research & Prototyping",
+      "duration": "5-7 weeks",
+      "difficulty": "Intermediate",
+      "description": "Master user-centered design and usability testing",
+      "topics": [
+        { "id": 1, "name": "User personas and journey mapping" },
+        { "id": 2, "name": "Heuristic evaluation" },
+        { "id": 3, "name": "Information architecture" },
+        { "id": 4, "name": "Prototyping in Figma and Adobe XD" },
+        { "id": 5, "name": "User testing and feedback loops" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "User Research & Prototyping",
+          "provider": "Google UX Certificate",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "practice",
+          "title": "UX Challenges",
+          "provider": "UX Challenge",
+          "url": "#",
+          "icon": "Globe"
+        },
+        {
+          "type": "book",
+          "title": "Don't Make Me Think",
+          "provider": "Steve Krug",
+          "url": "#",
+          "icon": "BookOpen"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "User Flow for E-Commerce",
+          "description": "Design and test a checkout flow for an online store",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["User Flow", "UX Research", "Prototyping"]
+        },
+        {
+          "id": 2,
+          "title": "Mobile App Redesign",
+          "description": "Redesign an existing app to improve usability based on user feedback",
+          "difficulty": "Intermediate",
+          "duration": "3 weeks",
+          "skills": ["User Testing", "UX Heuristics", "Redesign"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "phase": "Visual Design & Branding",
+      "title": "Advanced UI Techniques",
+      "duration": "5-6 weeks",
+      "difficulty": "Intermediate",
+      "description": "Enhance your visual design skills and work with branding systems",
+      "topics": [
+        { "id": 1, "name": "Advanced visual design techniques" },
+        { "id": 2, "name": "Designing for accessibility (WCAG)" },
+        { "id": 3, "name": "Microinteractions and animations" },
+        { "id": 4, "name": "Designing with components" },
+        { "id": 5, "name": "Branding and style guides" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Design Systems in Figma",
+          "provider": "DesignCode.io",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "tool",
+          "title": "Contrast Checker",
+          "provider": "WebAIM",
+          "url": "#",
+          "icon": "Globe"
+        },
+        {
+          "type": "tutorial",
+          "title": "Micro-interactions in UI",
+          "provider": "UX Collective",
+          "url": "#",
+          "icon": "Code"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Brand Style Guide",
+          "description": "Create a style guide including logo, colors, and components",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["Branding", "Typography", "Color Palette"]
+        },
+        {
+          "id": 2,
+          "title": "Animated Mobile App UI",
+          "description": "Design a mobile app UI with interactive animations",
+          "difficulty": "Advanced",
+          "duration": "3 weeks",
+          "skills": ["Figma Prototyping", "Microinteractions", "Visual Hierarchy"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "phase": "Real-World Practice",
+      "title": "Portfolio & Collaboration",
+      "duration": "3-4 weeks",
+      "difficulty": "Advanced",
+      "description": "Build real-world projects and prepare your portfolio",
+      "topics": [
+        { "id": 1, "name": "Design handoff for developers" },
+        { "id": 2, "name": "Working in design sprints" },
+        { "id": 3, "name": "Creating case studies for portfolio" },
+        { "id": 4, "name": "Collaborating with product and engineering teams" },
+        { "id": 5, "name": "Freelance and job-ready skills" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Build a UX Portfolio",
+          "provider": "CareerFoundry",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "platform",
+          "title": "Behance & Dribbble",
+          "provider": "Adobe",
+          "url": "#",
+          "icon": "Globe"
+        },
+        {
+          "type": "documentation",
+          "title": "Figma Developer Handoff",
+          "provider": "Figma",
+          "url": "#",
+          "icon": "FileText"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Case Study: Food Delivery App",
+          "description": "Design an app from research to handoff and document the journey",
+          "difficulty": "Advanced",
+          "duration": "3 weeks",
+          "skills": ["End-to-End UX", "Research", "Prototyping", "Presentation"]
+        },
+        {
+          "id": 2,
+          "title": "Portfolio Website",
+          "description": "Design and showcase your UI/UX projects in a personal portfolio",
+          "difficulty": "Advanced",
+          "duration": "2 weeks",
+          "skills": ["UI Design", "Branding", "Case Study Writing"]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    "Figma",
+    "Adobe XD",
+    "Design Systems",
+    "Wireframing",
+    "Prototyping",
+    "User Research",
+    "Accessibility"
+  ],
+  "companies": [
+    "Spotify",
+    "Google",
+    "Microsoft",
+    "Airbnb",
+    "Adobe",
+    "Shopify"
+  ]
+}
+,{
+  "name": "Data Scientist",
+  "roadmapId": 4,
+  "description": "Analyze complex data, build predictive models, and derive actionable insights to support business decisions.",
+  "salary": "$90k - $160k",
+  "demand": "Very High",
+  "growth": "+35%",
+  "timeToLearn": "8-12 months",
+  "overview": "Data Scientists are analytical experts who utilize statistical, programming, and machine learning techniques to process large datasets and solve real-world problems. They are central to data-driven decision-making in companies.",
+  "roadmap": [
+    {
+      "id": 1,
+      "phase": "Foundation",
+      "title": "Mathematics & Programming Basics",
+      "duration": "5-7 weeks",
+      "difficulty": "Beginner",
+      "description": "Build the foundation in math, statistics, and Python programming.",
+      "topics": [
+        { "id": 1, "name": "Python basics and syntax" },
+        { "id": 2, "name": "Data types, loops, functions, and OOP" },
+        { "id": 3, "name": "Probability theory and distributions" },
+        { "id": 4, "name": "Descriptive and inferential statistics" },
+        { "id": 5, "name": "Linear algebra basics (vectors, matrices)" },
+        { "id": 6, "name": "Git and version control" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Python for Data Science",
+          "provider": "Coursera (IBM)",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "book",
+          "title": "Think Stats",
+          "provider": "Allen B. Downey",
+          "url": "#",
+          "icon": "BookOpen"
+        },
+        {
+          "type": "practice",
+          "title": "Python Exercises",
+          "provider": "W3Schools",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Statistical Summary Tool",
+          "description": "Create a Python script to summarize key statistics from a dataset",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["Python", "Statistics"]
+        },
+        {
+          "id": 2,
+          "title": "Basic GitHub Portfolio",
+          "description": "Host simple data scripts and notebooks to practice Git and GitHub",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["Git", "Version Control"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "phase": "Data Handling",
+      "title": "Data Wrangling & Visualization",
+      "duration": "5-6 weeks",
+      "difficulty": "Intermediate",
+      "description": "Learn to clean, analyze, and visualize data using Python libraries.",
+      "topics": [
+        { "id": 1, "name": "Pandas for data manipulation" },
+        { "id": 2, "name": "NumPy for numerical operations" },
+        { "id": 3, "name": "Data cleaning (missing values, duplicates)" },
+        { "id": 4, "name": "Exploratory Data Analysis (EDA)" },
+        { "id": 5, "name": "Data visualization with Matplotlib, Seaborn, Plotly" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Data Analysis with Python",
+          "provider": "freeCodeCamp",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "documentation",
+          "title": "Pandas Documentation",
+          "provider": "pandas.pydata.org",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "tool",
+          "title": "Kaggle Datasets",
+          "provider": "Kaggle",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Netflix Viewing Habits Dashboard",
+          "description": "Visualize Netflix usage patterns using public dataset",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["Pandas", "EDA", "Seaborn"]
+        },
+        {
+          "id": 2,
+          "title": "COVID-19 Data Explorer",
+          "description": "Create interactive charts and dashboards from COVID-19 datasets",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["Matplotlib", "Plotly", "Data Cleaning"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "phase": "Machine Learning Core",
+      "title": "Supervised & Unsupervised Learning",
+      "duration": "6-8 weeks",
+      "difficulty": "Advanced",
+      "description": "Understand and implement key machine learning algorithms.",
+      "topics": [
+        { "id": 1, "name": "Scikit-learn and ML pipelines" },
+        { "id": 2, "name": "Linear and logistic regression" },
+        { "id": 3, "name": "Decision trees, random forests" },
+        { "id": 4, "name": "KNN, SVM, Naive Bayes" },
+        { "id": 5, "name": "K-means and hierarchical clustering" },
+        { "id": 6, "name": "Model evaluation and cross-validation" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Machine Learning with Python",
+          "provider": "Coursera (IBM)",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "book",
+          "title": "Hands-On ML with Scikit-Learn, Keras, and TensorFlow",
+          "provider": "Aurélien Géron",
+          "url": "#",
+          "icon": "BookOpen"
+        },
+        {
+          "type": "practice",
+          "title": "ML Projects",
+          "provider": "Kaggle Competitions",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Spam Email Classifier",
+          "description": "Build a classifier to identify spam emails",
+          "difficulty": "Advanced",
+          "duration": "3 weeks",
+          "skills": ["Scikit-learn", "NLP Basics", "Logistic Regression"]
+        },
+        {
+          "id": 2,
+          "title": "Customer Segmentation",
+          "description": "Use clustering techniques to group similar customers",
+          "difficulty": "Advanced",
+          "duration": "3 weeks",
+          "skills": ["K-means", "EDA", "Unsupervised Learning"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "phase": "Specialization",
+      "title": "Advanced Topics & Deployment",
+      "duration": "5-7 weeks",
+      "difficulty": "Advanced",
+      "description": "Dive into real-world deployment, deep learning, and time series.",
+      "topics": [
+        { "id": 1, "name": "Introduction to neural networks and TensorFlow" },
+        { "id": 2, "name": "Natural Language Processing (NLP)" },
+        { "id": 3, "name": "Time series forecasting" },
+        { "id": 4, "name": "Model deployment (Flask, Streamlit)" },
+        { "id": 5, "title": "Data pipelines and automation" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Deep Learning Specialization",
+          "provider": "Coursera (Andrew Ng)",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "tool",
+          "title": "Streamlit Docs",
+          "provider": "streamlit.io",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "practice",
+          "title": "End-to-End ML Projects",
+          "provider": "Kaggle",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Sentiment Analysis App",
+          "description": "Build and deploy a sentiment analyzer for movie reviews",
+          "difficulty": "Advanced",
+          "duration": "3-4 weeks",
+          "skills": ["NLP", "Text Preprocessing", "Deployment"]
+        },
+        {
+          "id": 2,
+          "title": "Stock Price Predictor",
+          "description": "Use LSTM or regression to forecast stock trends",
+          "difficulty": "Advanced",
+          "duration": "3-4 weeks",
+          "skills": ["Time Series", "Deep Learning", "EDA"]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    "Python", "Pandas", "Scikit-learn", "Statistics", "Machine Learning", "Data Visualization", "SQL", "TensorFlow"
+  ],
+  "companies": ["Google", "Facebook", "Amazon", "Netflix", "Uber", "IBM"]
+},{
+  "name": "Mobile App Developer",
+  "roadmapId": 8,
+  "description": "Design, develop, and maintain mobile applications for Android and iOS platforms using native or cross-platform technologies.",
+  "salary": "$80k - $140k",
+  "demand": "High",
+  "growth": "+24%",
+  "timeToLearn": "6-10 months",
+  "overview": "Mobile developers specialize in building responsive and performant applications for mobile devices. They work with tools like Flutter, React Native, or native SDKs to create apps for Android and iOS platforms.",
+  "roadmap": [
+    {
+      "id": 1,
+      "phase": "Foundation",
+      "title": "Programming & Mobile Basics",
+      "duration": "4-5 weeks",
+      "difficulty": "Beginner",
+      "description": "Learn programming fundamentals and understand the basics of mobile app development.",
+      "topics": [
+        { "id": 1, "name": "OOP concepts and Dart/JavaScript basics" },
+        { "id": 2, "name": "Version control with Git and GitHub" },
+        { "id": 3, "name": "Introduction to mobile ecosystems (iOS & Android)" },
+        { "id": 4, "name": "Responsive design and layout principles" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Introduction to Programming",
+          "provider": "freeCodeCamp",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "book",
+          "title": "Eloquent JavaScript",
+          "provider": "Marijn Haverbeke",
+          "url": "#",
+          "icon": "BookOpen"
+        },
+        {
+          "type": "practice",
+          "title": "GitHub First Contribution",
+          "provider": "GitHub",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Responsive UI Clone",
+          "description": "Recreate the UI of a basic app screen (e.g. login)",
+          "difficulty": "Beginner",
+          "duration": "1 week",
+          "skills": ["Layout", "Flexbox", "Mobile UI"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "phase": "Cross-Platform Development",
+      "title": "Flutter or React Native",
+      "duration": "6-8 weeks",
+      "difficulty": "Intermediate",
+      "description": "Learn to build apps using a cross-platform framework.",
+      "topics": [
+        { "id": 1, "name": "Flutter widgets / React Native components" },
+        { "id": 2, "name": "State management (Provider / Redux / Context)" },
+        { "id": 3, "name": "Navigation and routing" },
+        { "id": 4, "name": "Forms, input handling, and validation" },
+        { "id": 5, "name": "HTTP requests and API integration" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Flutter Development Bootcamp",
+          "provider": "App Brewery",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "tutorial",
+          "title": "React Native Crash Course",
+          "provider": "YouTube - Programming with Mosh",
+          "url": "#",
+          "icon": "Code"
+        },
+        {
+          "type": "documentation",
+          "title": "Flutter Docs",
+          "provider": "flutter.dev",
+          "url": "#",
+          "icon": "FileText"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "To-Do App",
+          "description": "Create a fully functional to-do app with state management",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["Flutter/React Native", "State Management", "UI/UX"]
+        },
+        {
+          "id": 2,
+          "title": "Weather App",
+          "description": "Fetch and display weather data using a public API",
+          "difficulty": "Intermediate",
+          "duration": "2 weeks",
+          "skills": ["API Integration", "HTTP", "Data Parsing"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "phase": "Advanced Features",
+      "title": "Native APIs, Databases & Animations",
+      "duration": "6-8 weeks",
+      "difficulty": "Advanced",
+      "description": "Work with native device features, local storage, and advanced UI.",
+      "topics": [
+        { "id": 1, "name": "SQLite / Hive / AsyncStorage" },
+        { "id": 2, "name": "Camera, GPS, and permissions" },
+        { "id": 3, "name": "Push notifications" },
+        { "id": 4, "name": "App animations and transitions" },
+        { "id": 5, "name": "Testing and debugging apps" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Advanced Flutter",
+          "provider": "Udemy",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "documentation",
+          "title": "React Native APIs",
+          "provider": "reactnative.dev",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "practice",
+          "title": "Firebase Integration",
+          "provider": "Firebase",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Chat Application",
+          "description": "Real-time chat app with Firebase backend",
+          "difficulty": "Advanced",
+          "duration": "3 weeks",
+          "skills": ["Firebase", "Authentication", "Messaging"]
+        },
+        {
+          "id": 2,
+          "title": "Travel Tracker App",
+          "description": "Use GPS and maps to track travel history",
+          "difficulty": "Advanced",
+          "duration": "3-4 weeks",
+          "skills": ["Maps", "Permissions", "Native APIs"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "phase": "Deployment & Real World Projects",
+      "title": "Publishing & CI/CD",
+      "duration": "4-6 weeks",
+      "difficulty": "Advanced",
+      "description": "Deploy apps to stores and automate testing and delivery pipelines.",
+      "topics": [
+        { "id": 1, "name": "App store guidelines (Google Play, App Store)" },
+        { "id": 2, "name": "Code signing and release builds" },
+        { "id": 3, "name": "Crash reporting and analytics" },
+        { "id": 4, "name": "CI/CD tools for mobile (Codemagic, Bitrise, GitHub Actions)" },
+        { "id": 5, "name": "OTA updates (CodePush / Firebase)" }
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Publishing Flutter Apps",
+          "provider": "Udacity",
+          "url": "#",
+          "icon": "Play"
+        },
+        {
+          "type": "documentation",
+          "title": "Play Console Help",
+          "provider": "Google",
+          "url": "#",
+          "icon": "FileText"
+        },
+        {
+          "type": "practice",
+          "title": "Codemagic CI/CD Setup",
+          "provider": "Codemagic",
+          "url": "#",
+          "icon": "Globe"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Released App on Play Store",
+          "description": "Build and publish a full app to the Play Store",
+          "difficulty": "Advanced",
+          "duration": "3-4 weeks",
+          "skills": ["Release Build", "Play Store", "CI/CD"]
+        },
+        {
+          "id": 2,
+          "title": "Portfolio App",
+          "description": "Showcase your skills and projects in a portfolio mobile app",
+          "difficulty": "Intermediate",
+          "duration": "2-3 weeks",
+          "skills": ["Design", "UX", "Deployment"]
+        }
+      ]
+    }
+  ],
+  "skills": ["Flutter", "React Native", "Firebase", "SQLite", "REST APIs", "JavaScript", "Dart", "CI/CD"],
+  "companies": ["Google", "Instagram", "Spotify", "Swiggy", "Zomato", "Razorpay"]
+}]

@@ -1,0 +1,22 @@
+{
+  "frontend": ["HTML", "CSS", "JavaScript", "React", "Vue.js", "Tailwind CSS", "Next.js"],
+  "backend": ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "REST API", "JWT", "Docker"],
+  "fullstack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB", "REST API"],
+  "devops": ["Docker", "Kubernetes", "CI/CD", "AWS", "Terraform", "Linux", "Monitoring"],
+  "dsa": ["Arrays", "Linked Lists", "Trees", "Graphs", "Dynamic Programming", "Greedy", "Recursion"],
+  "ml": ["NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Linear Regression", "SVM", "Clustering"],
+  "data_engineering": ["SQL", "Airflow", "Kafka", "Spark", "ETL", "Data Warehousing", "BigQuery"],
+  "ai": ["Python", "Deep Learning", "Neural Networks", "TensorFlow", "Keras", "Transformers", "NLP"],
+  "cloud": ["AWS", "Azure", "Google Cloud", "S3", "EC2", "Cloud Functions", "Firebase"],
+  "open_source": ["Git", "GitHub", "Issue Tracking", "PR Reviews", "Documentation", "Community Engagement"],
+  "internship": ["Resume Building", "Projects", "GitHub Profile", "Problem Solving", "System Design Basics"],
+  "system_design": ["Load Balancing", "Caching", "Database Sharding", "Microservices", "Scalability"],
+  "blockchain": ["Solidity", "Smart Contracts", "Ethereum", "Web3.js", "DeFi", "DApps"],
+  "android": ["Java", "Kotlin", "Android Studio", "Jetpack Compose", "XML Layouts", "Firebase"],
+  "ios": ["Swift", "Xcode", "SwiftUI", "Storyboard", "Core Data", "Firebase"],
+  "web3": ["Smart Contracts", "Solidity", "Ethereum", "NFTs", "Web3.js", "IPFS"],
+  "cybersecurity": ["Networking", "Linux", "Burp Suite", "Penetration Testing", "OWASP Top 10", "Cryptography"],
+  "product_based": ["DSA", "System Design", "Low-Level Design", "Problem Solving", "Behavioral Interviews"],
+  "startup_preparation": ["MVP Development", "Pitch Deck", "Marketing", "Fundraising", "Networking"],
+  "freelancing": ["Portfolio", "Upwork", "Client Communication", "Pricing", "Time Management"]
+}

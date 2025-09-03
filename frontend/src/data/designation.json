@@ -1,0 +1,20 @@
+{
+  "designations": [
+    "Student",
+    "Intern",
+    "Graduate",
+    "Junior Developer",
+    "Software Engineer",
+    "Senior Software Engineer",
+    "Team Lead",
+    "Project Manager",
+    "Tech Lead",
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "DevOps Engineer",
+    "Product Manager",
+    "CTO",
+    "Freelancer",
+    "Startup Founder"
+  ]
+}
