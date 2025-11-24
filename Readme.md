@@ -2,7 +2,7 @@
 
 SkillMap is a full-stack web application that generates **customized learning roadmaps** based on a user’s current skills, target role, and time availability. Designed for aspiring developers and learners, SkillMap uses AI (LangChain + Gemini API) to build structured paths and help users track their learning journey effectively.
 
-🔗 **Live Demo**: [https://skill-mapper-alpha.vercel.app](https://skill-mapper-alpha.vercel.app)
+🔗 **Live Demo**: [https://skillmapper.vercel.app](https://skillmapper.vercel.app/)
 
 ---
 
