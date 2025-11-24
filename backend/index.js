@@ -14,27 +14,27 @@ const app = express()
 const PORT = process.env.PORT || 8000
 
 app.use(cors({
-  origin: ['http://localhost:5173', process.env.FRONTEND_URI], // whitelist local + deployed frontend
-  credentials: true // if you're using cookies or auth headers
+    origin: ['http://localhost:5173', 'http://localhost:5174', process.env.FRONTEND_URI], // whitelist local + deployed frontend
+    credentials: true // if you're using cookies or auth headers
 }));
 
 app.use(express.json())
 app.use(express.urlencoded({
-    extended:true,
-    parameterLimit:5000
+    extended: true,
+    parameterLimit: 5000
 }))
 
-app.get('/',(req,res)=>{
+app.get('/', (req, res) => {
     res.send("SkillMapper HomePage")
 })
 
-app.use('/api/auth',authRouter)
-app.use('/api/staticRoles',staticRoleRouter);
-app.use('/api/user',userRouter)
-app.use('/api/personalisedRole',personalisedRoleRouter)
+app.use('/api/auth', authRouter)
+app.use('/api/staticRoles', staticRoleRouter);
+app.use('/api/user', userRouter)
+app.use('/api/personalisedRole', personalisedRoleRouter)
 
 if (process.env.NODE_ENV !== 'production') {
-    app.listen(PORT,()=>{
+    app.listen(PORT, () => {
         console.log(`App running on PORT ${PORT}`)
     })
 }
