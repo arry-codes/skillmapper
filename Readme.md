@@ -1,10 +1,9 @@
-# 🚀 SkillMap – Personalized Learning Roadmap Generator
+<img width="1470" height="956" alt="Screenshot 2025-11-25 at 3 11 56 AM" src="https://github.com/user-attachments/assets/ba5e1e12-a3ac-45c0-a593-41f8c41f44fa" /># 🚀 SkillMap – Personalized Learning Roadmap Generator
 
 SkillMap is a full-stack web application that generates **customized learning roadmaps** based on a user’s current skills, target role, and time availability. Designed for aspiring developers and learners, SkillMap uses AI (LangChain + Gemini API) to build structured paths and help users track their learning journey effectively.
 
 🔗 **Live Demo**: [https://skillmapper.vercel.app](https://skillmapper.vercel.app/)
 
----
 
 ## 🧠 Features
 
@@ -15,7 +14,6 @@ SkillMap is a full-stack web application that generates **customized learning ro
 - 📌 **Trending role suggestions** and skill demand analysis
 - 💡 Clean and responsive UI built with Tailwind CSS
 
----
 
 ## 🛠️ Tech Stack
 
@@ -41,6 +39,7 @@ SkillMap is a full-stack web application that generates **customized learning ro
 - Frontend/Backend: **Vercel**
 
 ---
+<img width="1470" height="956" alt="Screenshot 2025-11-25 at 3 11 56 AM" src="https://github.com/user-attachments/assets/a5561753-2fb6-4ccc-b5c8-eaf1220c615b" />
 
 
 
