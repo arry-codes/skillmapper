@@ -33,6 +33,10 @@ app.use('/api/staticRoles',staticRoleRouter);
 app.use('/api/user',userRouter)
 app.use('/api/personalisedRole',personalisedRoleRouter)
 
-app.listen(PORT,()=>{
-    console.log(`App running on PORT ${PORT}`)
-})
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(PORT,()=>{
+        console.log(`App running on PORT ${PORT}`)
+    })
+}
+
+export default app;
