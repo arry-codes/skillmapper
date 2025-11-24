@@ -38,8 +38,7 @@ SkillMap is a full-stack web application that generates **customized learning ro
 - Gemini API (Google’s LLM)
 
 ### Deployment
-- Frontend: **Vercel**
-- Backend: **Render**
+- Frontend/Backend: **Vercel**
 
 ---
 
