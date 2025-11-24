@@ -1,4 +1,4 @@
-<img width="1470" height="956" alt="Screenshot 2025-11-25 at 3 11 56 AM" src="https://github.com/user-attachments/assets/ba5e1e12-a3ac-45c0-a593-41f8c41f44fa" /># 🚀 SkillMap – Personalized Learning Roadmap Generator
+# 🚀 SkillMap – Personalized Learning Roadmap Generator
 
 SkillMap is a full-stack web application that generates **customized learning roadmaps** based on a user’s current skills, target role, and time availability. Designed for aspiring developers and learners, SkillMap uses AI (LangChain + Gemini API) to build structured paths and help users track their learning journey effectively.
 
