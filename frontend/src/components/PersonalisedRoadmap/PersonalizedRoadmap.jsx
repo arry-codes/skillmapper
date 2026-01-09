@@ -39,7 +39,7 @@ const useScrollAnimation = (trigger) => {
             observer.unobserve(entry.target);
           }
         });
-        
+
         if (newVisible.size > 0) {
           setVisibleElements((prev) => new Set([...prev, ...newVisible]));
         }
@@ -100,15 +100,16 @@ const getDifficultyColor = (difficulty) => {
 // Main Component
 const PersonalizedRoadmap = () => {
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null); // Added error state
   const [activeStep, setActiveStep] = useState(null);
   const [checkedTopics, setCheckedTopics] = useState({});
   const [scrollProgress, setScrollProgress] = useState(0);
   const [data, setData] = useState(null);
-  
+
   // Use refs to prevent unnecessary re-renders
   const pendingUpdates = useRef(new Set());
   const updateTimeoutRef = useRef(null);
-  
+
   const visibleElements = useScrollAnimation(data);
 
   // Debounced scroll handler
@@ -122,7 +123,7 @@ const PersonalizedRoadmap = () => {
   // Throttled scroll event
   useEffect(() => {
     let ticking = false;
-    
+
     const throttledScroll = () => {
       if (!ticking) {
         requestAnimationFrame(() => {
@@ -142,7 +143,10 @@ const PersonalizedRoadmap = () => {
     const fetchEverything = async () => {
       try {
         const token = localStorage.getItem("authToken");
-        
+        if (!token) {
+          throw new Error("No authentication token found. Please login.");
+        }
+
         // Parallel API calls
         const [roadmapResponse, progressResponse] = await Promise.all([
           axios.get(
@@ -155,11 +159,15 @@ const PersonalizedRoadmap = () => {
           )
         ]);
 
+        if (!roadmapResponse.data) {
+          throw new Error("No roadmap data received");
+        }
+
         setData(roadmapResponse.data);
 
         // Batch state update for checked topics
         const initialCheckedTopics = {};
-        
+
         if (progressResponse.data.completedTopics?.length > 0) {
           progressResponse.data.completedTopics.forEach(({ phaseId, topicId }) => {
             const stepKey = `step-${phaseId}`;
@@ -181,6 +189,7 @@ const PersonalizedRoadmap = () => {
 
       } catch (err) {
         console.error("Error fetching data:", err);
+        setError(err.message || "Failed to load roadmap. Please try again.");
       } finally {
         setLoading(false);
       }
@@ -195,7 +204,7 @@ const PersonalizedRoadmap = () => {
     setCheckedTopics((prev) => {
       const next = { ...prev };
       if (!next[stepKey]) next[stepKey] = new Set();
-      
+
       if (checked) {
         next[stepKey].add(topicId);
       } else {
@@ -216,7 +225,7 @@ const PersonalizedRoadmap = () => {
     // Debounce API calls
     updateTimeoutRef.current = setTimeout(async () => {
       if (!pendingUpdates.current.has(updateKey)) return;
-      
+
       try {
         const token = localStorage.getItem("authToken");
 
@@ -233,17 +242,17 @@ const PersonalizedRoadmap = () => {
             { headers: { authToken: token } }
           );
         }
-        
+
         pendingUpdates.current.delete(updateKey);
       } catch (err) {
         console.error("Progress update failed:", err);
         pendingUpdates.current.delete(updateKey);
-        
+
         // Rollback on error
         setCheckedTopics((prev) => {
           const next = { ...prev };
           if (!next[stepKey]) next[stepKey] = new Set();
-          
+
           if (checked) {
             next[stepKey].delete(topicId);
           } else {
@@ -267,7 +276,7 @@ const PersonalizedRoadmap = () => {
 
   const overallProgress = useMemo(() => {
     if (!data) return 0;
-    
+
     let totalTopics = 0;
     let checkedCount = 0;
 
@@ -300,6 +309,25 @@ const PersonalizedRoadmap = () => {
         </div>
       </div>
     );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-red-50 to-orange-100">
+        <h2 className="text-2xl font-bold text-red-600 mb-4">Something went wrong</h2>
+        <p className="text-gray-700 mb-6">{error}</p>
+        <Button
+          onClick={() => window.location.reload()}
+          className="bg-red-500 hover:bg-red-600 text-white"
+        >
+          Try Again
+        </Button>
+      </div>
+    );
+  }
+
+  if (!data) {
+    return null; // Should not happen if error is handled, but safe fallback
   }
 
   return (
@@ -738,8 +766,8 @@ const PersonalizedRoadmap = () => {
                         <label
                           htmlFor={`capstone-${topicIndex}`}
                           className={`text-sm cursor-pointer flex-1 ${checkedTopics["capstone"]?.has(topic.id)
-                              ? "line-through text-gray-500"
-                              : "text-gray-700"
+                            ? "line-through text-gray-500"
+                            : "text-gray-700"
                             }`}
 
                         >
@@ -799,7 +827,7 @@ const PersonalizedRoadmap = () => {
         </div>
       </div>
     </div>
-    
+
   )
 }
 
